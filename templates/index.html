@@ -1,5 +1,8 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    <h1>{% block title %} Welcome to my blog {% endblock %}</h1>
+    <div class="hero-section">    
+        <h1 class="hero-header">{% block title %} Projects, thoughts, & opinions {% endblock %}</h1>
+        <p class="hero-desc">{% block paragraph %} written by lachlan - an aspiring software engineer {% endblock %}</p>
+    </div>
 {% endblock %}
