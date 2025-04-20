@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Pixelify+Sans');
+
 h1 {
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 36px;
+    letter-spacing: 1px;
+    font-weight: 600;
     border: 2px #eee solid;
-    color: brown;
+    color: black;
     text-align: center;
     padding: 10px;
 }
