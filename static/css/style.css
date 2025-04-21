@@ -13,6 +13,11 @@ ul {
     list-style-type: none;
 }
 
+hr {
+    width: 100%;
+    border-color: #D0CFCC;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -87,7 +92,7 @@ body {
 
 .posts-section {
     display: flex;
-    gap: 10%;
+    flex-direction: column;
 }
 
 .post {
