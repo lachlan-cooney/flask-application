@@ -62,7 +62,8 @@ body {
     padding: 4rem 0;
 }
 
-.hero-header {
+.hero-header,
+.post-title-individual {
     font-size: 42px;
     font-weight: 700;
     color: #D0CFCC;
@@ -70,7 +71,8 @@ body {
     text-align: center;
 }
 
-.hero-desc {
+.hero-desc,
+.post-time-stamp {
     font-size: 22px;
     color: #D0CFCC;
     margin: 0;
@@ -121,6 +123,24 @@ body {
 .time-stamp {
     font-size: 18px;
     color: #D0CFCC;
+}
+
+/* individual posts */
+
+.post-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 4rem 0;
+}
+
+.post-content {
+    font-size: 18px;
+    color: #D0CFCC;
+}
+
+.post-time-stamp {
+    padding-bottom: 15px;
 }
 
 /* container placeholder */
