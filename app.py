@@ -15,7 +15,7 @@ def get_post(post_id):
                         (post_id,)).fetchone()
 
     conn.close()
-    if post in None:
+    if post is None:
         abort(404)
 
     return post
