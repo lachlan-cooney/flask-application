@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block title %} TAE | {{ post['title'] }} {% endblock %}
+{% block content %}
+    <div class="post-container">
+        <h2 class="post-title-individual">{% block heading %} {{ post['title'] }} {% endblock %}</h2>
+        <p class="post-time-stamp">{{ post['created'] }}</p>
+        <hr>
+        <p class="post-content">{{ post['content'] }}</p>
+    </div>
+{% endblock %}
