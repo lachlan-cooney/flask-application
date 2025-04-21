@@ -29,3 +29,5 @@ Over the next few days, I plan to finalise the database and table design, and cr
 ## References
 
 * Digital Ocean -> [How to Build a Flask Python Web Application](https://www.digitalocean.com/community/tutorials/how-to-make-a-web-application-using-flask-in-python-3)
+
+* Flask -> [Documentation](https://flask.palletsprojects.com/en/stable/)
