@@ -176,3 +176,4 @@ cython_debug/
 # Custome database related
 init_db.py
 database.db
+schema.sql
