@@ -6,4 +6,14 @@
         <h1 class="hero-header">{% block heading %} Thoughts, projects, & opinions {% endblock %}</h1>
         <p class="hero-desc">{% block paragraph %} written by lachlan - an aspiring software engineer {% endblock %}</p>
     </div>
+    <div class="posts-section">
+        {% for post in posts %}
+            <div class="post">
+                <a class="post-link" href="#">
+                    <h2 class="post-title">&#126;{{ post['title'] }}</h2>
+                </a>
+                <p class="time-stamp">{{ post['created'] }}</p>
+            </div> 
+        {% endfor %}
+    </div>
 {% endblock %}
