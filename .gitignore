@@ -173,7 +173,7 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
-# Custome database related
+# Custom database related
 init_db.py
 database.db
 schema.sql
