@@ -24,7 +24,25 @@ The basic design is as follows:
 
 * The font I ended up choosing was `Space Mono`.
 
-Over the next few days, I plan to finalise the database and table design, and create a page template for viewing a single post.
+Over the next few days, I plan to finalise the database and table design, and create a page template for viewing a single post.</br>
+
+> 23/04/2025
+
+I had a bit of time after work to create a template for viewing individual posts. Sticking with the current theme, this is what I came up with:</br>
+
+<img src="https://github.com/user-attachments/assets/5fde66e2-5a17-4c3f-bd21-a544ade8a848" alt="screenshot from 21/04/25" height="400"/><br/>
+
+Again, it's very simple, but that's by design.
+
+The idea was to make it as easy as possible to read the content. So, the only elements present are: 
+
+* The `title`
+
+* The posting `date` and `time`
+
+* The `content` itself
+
+As mentioned previously, I still need to finalise the database and table design. Hopefully I'll be posting another update soon!
 
 ## References
 
