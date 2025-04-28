@@ -9,7 +9,7 @@
     <div class="posts-section">
         {% for post in posts %}
             <div class="post">
-                <a class="post-link" href="#">
+                <a class="post-link" href="{{ url_for('post', post_id=post['id']) }}">
                     <h2 class="post-title">&#126;{{ post['title'] }}</h2>
                 </a>
                 <p class="time-stamp">{{ post['created'] }}</p>
