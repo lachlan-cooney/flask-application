@@ -38,7 +38,8 @@ body {
 
 .hero-header,
 .post-title-individual,
-.about-title {
+.about-title,
+.create-post-title {
     font-size: 42px;
     font-weight: 700;
     color: #D0CFCC;
@@ -175,9 +176,33 @@ body {
 }
 
 
+/* create post page */
+
+.create-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 4rem 0;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    text-align: center;
+}
+
+.form-title,
+.form-content-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #D0CFCC;
+    text-align: center;
+}
+
+
 /* container placeholder */
 
 .container {
     flex: 1;
 }
-
