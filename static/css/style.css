@@ -2,6 +2,7 @@
 
 
 /* global stuff */
+
 * {
     font-family: 'Space Mono', sans-serif;
 }
@@ -91,7 +92,7 @@ body {
 
 .nav-link {
     font-size: 18px;
-    color: #33D17A;
+    color: #26A269;
 }
 
 
@@ -181,23 +182,77 @@ body {
 .create-container{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 3rem;
     padding: 4rem 0;
 }
 
-.form-group {
+.form-container {
     display: flex;
     flex-direction: column;
-    width: 70%;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
 }
 
 .form-title,
 .form-content-title {
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 700;
     color: #D0CFCC;
     text-align: center;
+    margin-bottom: 1rem;
+}
+
+.form-group {
+    width: 70%;
+}
+
+.form-control-content,
+.form-control-title {
+    background-color: #171421;
+    border: 2px solid #D0CFCC;
+    border-radius: 20px;
+    padding: 1rem;
+    color: #D0CFCC;
+}
+
+.form-control-content {
+    height: 16rem;
+}
+
+.form-content-title,
+.btn-primary {
+    margin-top: 2rem;
+}
+
+.btn-primary {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #D0CFCC;
+    background-color: #26A269;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px #D0CFCC;
+}
+
+.btn-primary:hover {
+    background-color: #218A59
+}
+
+.btn-primary:active {
+  background-color: #218A59;
+  box-shadow: 0 2px #D0CFCC;
+  transform: translateY(4px);
 }
 
 
