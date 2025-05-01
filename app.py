@@ -53,6 +53,8 @@ def create():
 
         if not title:
             flash('Title is required!')
+        elif not content:
+            flash('Content is required!')
         else:
             conn = get_db_conn()
             conn.execute('INSERT INTO posts (title, content) VALUES (?, ?)',
