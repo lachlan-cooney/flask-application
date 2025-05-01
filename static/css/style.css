@@ -29,9 +29,19 @@ body {
     flex-direction: column;
     background-color: #171421;
     height: 100vh;
-    overflow: hidden;
     padding: 1rem 20%;
     margin: 0;
+}
+
+
+/* alerts */
+
+.alert {
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    color: red;
+    padding-top: 2rem;
 }
 
 
