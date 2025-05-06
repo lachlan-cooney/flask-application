@@ -50,7 +50,8 @@ body {
 .hero-header,
 .post-title-individual,
 .about-title,
-.create-post-title {
+.create-post-title,
+.edit-post-title {
     font-size: 42px;
     font-weight: 700;
     color: #D0CFCC;
@@ -187,9 +188,10 @@ body {
 }
 
 
-/* create post page */
+/* create & edit post pages */
 
-.create-container{
+.create-container,
+.edit-container {
     display: flex;
     flex-direction: column;
     gap: 3rem;
